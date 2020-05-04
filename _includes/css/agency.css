@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Libre Baskerville","Libre Baskerville",Libre Baskerville,Libre Baskerville,Libre Baskerville;
-    color: #{{ site.data.template.color.primary }};
+    color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
