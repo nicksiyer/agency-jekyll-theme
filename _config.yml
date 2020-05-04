@@ -10,15 +10,15 @@ description: "Brian Hwang Golf - Professional Instruction"
 # Team names, titles and social links
 people:
 - name: Brian Hwang
-  pic: 1
+  pic: brian_headshot
   position: Instructor
   social:
-    - title: 
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: instagram
+      url: http://instagram.com/brianhwanggolf
+    # - title: facebook
+    #   url: #
+    # - title: stack-overflow
+    #   url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -27,6 +27,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
+  - line: Pine Hollow Country Club
   - line: 6601 Northern Blvd
   - line: East Norwich, NY 11732
 

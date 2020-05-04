@@ -3,11 +3,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">About Brian</h2>
                 </div>
             </div>
             <div class="row">
+                {% for member in site.people %}
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
@@ -26,8 +26,13 @@
                     </div>
                 </div>
                 <div class="col-sm-8">
+                    <p class="large text-muted"> Brian specializes in developing personalized training programs specific to each individual client. As an accomplished junior, amateur and professional competitor, he takes a unique approach to player development. Rather than focusing on technical flaws, Brian emphasize the importance of critical moments in the swing. His core teaching philosophy is fueled by a passion to help morph golfers into the best players and people they can be, incorporating bio-mechanics, fitness, physiology, and performance psychology into a holistic lesson plan.</p>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-
                 </div>
             </div>
         </div>
